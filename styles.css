@@ -1,0 +1,37 @@
+
+
+.profile-holder{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #ADD8E6;
+	padding: 50px;
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+}
+
+
+.profile-photo{
+	width:  100%;
+}
+
+@media only screen and (max-width: 800px){
+.profile-holder{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: #ADD8E6;
+	padding: 50px;
+}
+.profile{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+
+}
